@@ -36,8 +36,8 @@ Backend：Node.js + Express |
 第 8 週  | 設計地點資料（locations）與路線資料（routes），建立 Graph 結構
 第 9 週  | 實作 Graph（Adjacency List）與基本路徑搜尋邏輯          
 第 10 週 | 完成 Dijkstra 演算法，能計算最短路徑                    
-第 11 週 | 建立後端 API（/locations、/route）                
-第 12 週 | 建立活動功能 API（/events、加入活動）                   
+第 11 週 | 建立後端 API（locations、route）                
+第 12 週 | 建立活動功能 API（events、加入活動）                   
 第 13 週 | 實作前端地圖（Leaflet），顯示地點與基本 UI                 
 第 14 週 | 前後端整合（路線顯示＋活動功能）                           
 第 15 週 | 系統測試與修正錯誤（debug & 優化）                      
