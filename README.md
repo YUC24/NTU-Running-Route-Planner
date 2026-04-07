@@ -25,10 +25,10 @@
 
 ### 使用技術
 <!-- 使用的語言、框架、工具等 -->
-Frontend：HTML, CSS, JavaScript
-地圖工具：Leaflet
-Backend：Node.js + Express
-資料儲存：JSON 檔案
+Frontend：HTML, CSS, JavaScript |
+地圖工具：Leaflet |
+Backend：Node.js + Express |
+資料儲存：JSON 檔案 |
 
 ### 時程規劃
 <!-- 各週預計完成的進度 -->
