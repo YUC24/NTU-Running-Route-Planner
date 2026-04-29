@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台大路跑揪團</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="app">
+
+  <!-- 左側面板 -->
+  <aside id="sidebar">
+    <h1>🏃 台大路跑揪團</h1>
+
+    <!-- 路線規劃 -->
+    <section class="panel">
+      <h2>路線規劃</h2>
+      <p class="hint">在地圖上點選起點（綠）與終點（紅）</p>
+      <div class="route-labels">
+        <span>起點：<b id="start-label">未選擇</b></span>
+        <span>終點：<b id="end-label">未選擇</b></span>
+      </div>
+      <div id="route-info" class="info-box">尚未規劃路線</div>
+      <button id="reset-btn">重新選擇</button>
+    </section>
+
+    <!-- 建立活動 -->
+    <section class="panel">
+      <h2>建立活動</h2>
+      <p class="hint">請先規劃路線，再填寫活動資訊</p>
+      <input type="text"     id="event-title"    placeholder="活動名稱"/>
+      <input type="datetime-local" id="event-datetime"/>
+      <input type="number"   id="event-max"      placeholder="人數上限" min="2" max="50"/>
+      <button id="create-event-btn">建立活動</button>
+    </section>
+
+    <!-- 活動列表 -->
+    <section class="panel">
+      <h2>目前活動</h2>
+      <div id="event-list">載入中...</div>
+    </section>
+  </aside>
+
+  <!-- 地圖 -->
+  <div id="map"></div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

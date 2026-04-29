@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "id": "e1777453734178",
+      "title": "test",
+      "startLocation": "loc_main_gate",
+      "routeId": "loc_main_gate_loc_sports",
+      "routeDistance": 0.9,
+      "routeMinutes": 5,
+      "dateTime": "2026-04-29T17:08",
+      "maxParticipants": 5,
+      "participants": [
+        "user_rnelth3"
+      ],
+      "createdBy": "user_rnelth3"
+    }
+  ]
+}

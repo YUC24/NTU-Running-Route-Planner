@@ -1,0 +1,10 @@
+[
+  { "id": "loc_main_gate",   "name": "台大正門",   "lat": 25.0173, "lng": 121.5397 },
+  { "id": "loc_library",     "name": "台大圖書館", "lat": 25.0147, "lng": 121.5333 },
+  { "id": "loc_sports",      "name": "台大操場",   "lat": 25.0128, "lng": 121.5360 },
+  { "id": "loc_moon_lake",   "name": "醉月湖",     "lat": 25.0119, "lng": 121.5404 },
+  { "id": "loc_gongguan",    "name": "公館",       "lat": 25.0143, "lng": 121.5338 },
+  { "id": "loc_riverside_n", "name": "河濱公園北", "lat": 25.0072, "lng": 121.5218 },
+  { "id": "loc_riverside_s", "name": "河濱公園南", "lat": 24.9999, "lng": 121.5199 },
+  { "id": "loc_shida",       "name": "師大公園",   "lat": 25.0261, "lng": 121.5283 }
+]

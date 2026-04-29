@@ -1,0 +1,13 @@
+[
+  { "from": "loc_main_gate",   "to": "loc_library",     "distance": 700  },
+  { "from": "loc_main_gate",   "to": "loc_sports",      "distance": 900  },
+  { "from": "loc_library",     "to": "loc_gongguan",    "distance": 300  },
+  { "from": "loc_library",     "to": "loc_sports",      "distance": 400  },
+  { "from": "loc_sports",      "to": "loc_moon_lake",   "distance": 350  },
+  { "from": "loc_sports",      "to": "loc_gongguan",    "distance": 450  },
+  { "from": "loc_moon_lake",   "to": "loc_gongguan",    "distance": 600  },
+  { "from": "loc_gongguan",    "to": "loc_riverside_n", "distance": 1200 },
+  { "from": "loc_riverside_n", "to": "loc_riverside_s", "distance": 900  },
+  { "from": "loc_main_gate",   "to": "loc_shida",       "distance": 1100 },
+  { "from": "loc_shida",       "to": "loc_library",     "distance": 1300 }
+]
