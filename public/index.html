@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>台大路跑揪團</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -31,9 +30,9 @@
     <section class="panel">
       <h2>建立活動</h2>
       <p class="hint">請先規劃路線，再填寫活動資訊</p>
-      <input type="text"     id="event-title"    placeholder="活動名稱"/>
+      <input type="text"          id="event-title"    placeholder="活動名稱"/>
       <input type="datetime-local" id="event-datetime"/>
-      <input type="number"   id="event-max"      placeholder="人數上限" min="2" max="50"/>
+      <input type="number"        id="event-max"      placeholder="人數上限" min="2" max="50"/>
       <button id="create-event-btn">建立活動</button>
     </section>
 
@@ -49,7 +48,8 @@
 
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- 把 YOUR_API_KEY 換成你的金鑰 -->
+<script src="AIzaSyDwfpBrnLiSycMcnw9G9Dv_slBCQydULI4" async defer></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -12,7 +12,6 @@ body {
   height: 100vh;
 }
 
-/* ── 左側面板 ── */
 #sidebar {
   width: 300px;
   min-width: 300px;
@@ -22,7 +21,6 @@ body {
   border-right: 1px solid #e2e8f0;
   display: flex;
   flex-direction: column;
-  gap: 0;
 }
 
 #sidebar h1 {
@@ -102,11 +100,9 @@ button {
 
 #create-event-btn { background: #1d4ed8; color: #fff; }
 #create-event-btn:hover { background: #1e40af; }
-
 #reset-btn { background: #e2e8f0; color: #475569; }
 #reset-btn:hover { background: #cbd5e1; }
 
-/* ── 活動卡片 ── */
 .event-card {
   background: #f8fafc;
   border: 1px solid #e2e8f0;
@@ -115,6 +111,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-bottom: 8px;
 }
 
 .event-card h3 {
@@ -128,7 +125,7 @@ button {
   color: #64748b;
 }
 
-.event-card .badge {
+.badge {
   display: inline-block;
   font-size: 11px;
   padding: 2px 7px;
@@ -152,13 +149,12 @@ button {
   font-size: 12px;
 }
 
-.btn-join  { background: #1d4ed8; color: #fff; }
-.btn-join:hover  { background: #1e40af; }
-.btn-leave { background: #e2e8f0; color: #475569; }
+.btn-join     { background: #1d4ed8; color: #fff; }
+.btn-join:hover { background: #1e40af; }
+.btn-leave    { background: #e2e8f0; color: #475569; }
 .btn-leave:hover { background: #cbd5e1; }
 .btn-disabled { background: #e2e8f0; color: #94a3b8; cursor: not-allowed; }
 
-/* ── 地圖 ── */
 #map {
   flex: 1;
   height: 100vh;
